@@ -14,6 +14,8 @@ list = ["a", "b", "c"]
 dict = {'Name': 'David', 'Age': 22}
 tuple = 10, 20, 30
 
+# if 文法示範
+
 a = eval(input("a = "))
 b = eval(input("b = "))
 
@@ -23,6 +25,8 @@ elif a == b:
     print("a = b")
 else:
     print("a < b")
+
+# while 文法示範
 
 result = 0
 i = 1
@@ -34,6 +38,8 @@ while i <= n:
     i += 1
 
 print("result = ", result)
+
+# for 文法示範
 
 for i in range(3):
     for j in range(3):
